@@ -26,8 +26,7 @@ export const JsonPlaceholderTodoList = () => {
           return (
             <TodoElement
               key={todo.id}
-              text={todo.title}
-              checked={todo.completed}
+              item={todo}
             />
           );
         })}
